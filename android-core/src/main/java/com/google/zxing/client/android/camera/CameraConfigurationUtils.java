@@ -58,7 +58,7 @@ public final class CameraConfigurationUtils {
                               boolean safeMode) {
     List<String> supportedFocusModes = parameters.getSupportedFocusModes();
     String focusMode = null;
-    final String focusmodetext = "focus mode"
+    final String focusModetext = "focus mode"
     if (autoFocus) {
       if (safeMode || disableContinuous) {
         focusMode = findSettableValue(focusmodetext,
